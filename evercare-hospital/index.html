@@ -3,6 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @media screen and (max-width: 525px) {
+        .description {
+          width: 100% !important;
+        }
+        .about-img {
+          width: 80% !important;
+        }
+        .about {
+          text-align: center !important;
+        }
+      }
+    </style>
     <title>Ever Care Hospital</title>
   </head>
 
@@ -49,19 +62,33 @@
           </td>
         </tr>
         <tr>
-          <td width="45%" align="left">
-            <p style="color: rgb(202, 202, 202); text-align: left; font-size: 16px; line-height: 20px">
-              Welcome to EverCare Hospital, where compassion meets excellence in healthcare. Our expert team provides tailored, state-of-the-art
-              medical services to ensure your well-being. With a focus on patient-centered care, we're dedicated to your comfort and satisfaction.
-              Trust EverCare for exceptional healthcare with a personal touch.
-            </p>
-          </td>
-          <td width="55%" align="right">
-            <img
-              style="width: 90%"
-              src="https://ik.imagekit.io/ktwmp1k4t/evercare-hospital/who-are-we.png?updatedAt=1755887661671"
-              alt="who are we"
-            />
+          <td style="width: 100%; text-align: center; vertical-align: top">
+            <div class="about-img" style="width: 50%; display: inline-block; vertical-align: top">
+              <table>
+                <tr>
+                  <td width="100%" align="right" style="vertical-align: top">
+                    <img
+                      style="width: 100%"
+                      src="https://ik.imagekit.io/ktwmp1k4t/evercare-hospital/who-are-we.png?updatedAt=1755887661671"
+                      alt="who are we"
+                    />
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="description" style="width: 45%; display: inline-block; vertical-align: top">
+              <table>
+                <tr>
+                  <td width="100%" align="left" style="vertical-align: top">
+                    <p class="about" style="color: rgb(202, 202, 202); text-align: left; font-size: 16px; line-height: 20px">
+                      Welcome to EverCare Hospital, where compassion meets excellence in healthcare. Our expert team provides tailored,
+                      state-of-the-art medical services to ensure your well-being. With a focus on patient-centered care, we're dedicated to your
+                      comfort and satisfaction. Trust EverCare for exceptional healthcare with a personal touch.
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </div>
           </td>
         </tr>
         <tr>
