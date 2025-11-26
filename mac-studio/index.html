@@ -3,6 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @media screen and (max-width: 500px) {
+        .card {
+          width: 100% !important;
+          height: max-content !important;
+          min-height: none !important;
+          margin: 5px 0 !important;
+          text-align: center !important;
+        }
+        .card-img {
+          text-align: center !important;
+        }
+      }
+    </style>
     <title>Mac Studio</title>
   </head>
   <body style="margin: 0; padding: 0; box-sizing: border-box; font-size: 16px; font-family: Arial, Helvetica, sans-serif; background-color: #f5f5f7">
@@ -212,82 +226,91 @@
         </tr>
         <tr style="width: 100%; height: auto; text-align: center">
           <td style="padding: 20px 0 0 0; height: 250px; min-height: max-content !important">
-            <div
-              style="
-                width: 30%;
-                text-align: left;
-                margin: auto;
-                box-sizing: border-box;
-                padding: 10px;
-                display: inline-block;
-                vertical-align: top;
-                background-color: #e7e9eb;
-                min-height: max-content !important;
-                height: 100%;
-              "
-            >
-              <div style="width: 100%; height: auto; text-align: left">
-                <img
-                  src="https://ik.imagekit.io/ktwmp1k4t/Email%20templates/Mac%20Studio/card-1.png?updatedAt=1757960469024"
-                  alt="icon"
-                  style="width: 32px; height: auto"
-                />
-              </div>
-              <h5 style="color: rgb(36, 36, 36); margin: 0 0 10px 0">Why Apple is the best place to buy your new Mac.</h5>
-              <p style="margin: 0; font-size: 12px">
-                With Apple Trade In, just give us your eligible Mac and get credit for a new one. It’s good for you and the planet.<sup>4</sup>
-              </p>
-            </div>
-            <div
-              style="
-                width: 30%;
-                text-align: left;
-                margin: auto;
-                box-sizing: border-box;
-                padding: 10px;
-                display: inline-block;
-                vertical-align: top;
-                background-color: #e7e9eb;
-                min-height: max-content !important;
-                height: 100%;
-              "
-            >
-              <div style="width: 100%; height: auto; text-align: left">
-                <img
-                  src="https://ik.imagekit.io/ktwmp1k4t/Email%20templates/Mac%20Studio/card-2.png?updatedAt=1757960469033"
-                  alt="icon"
-                  style="width: 32px; height: auto"
-                />
-              </div>
-              <h5 style="color: rgb(36, 36, 36); margin: 0 0 10px 0">Apple Card Monthly Installments.</h5>
-              <p style="margin: 0; font-size: 12px">
-                With Apple Trade In, just give us your eligible Mac and get credit for a new one. It’s good for you and the planet.<sup>4</sup>
-              </p>
-            </div>
-            <div
-              style="
-                width: 30%;
-                text-align: left;
-                margin: auto;
-                box-sizing: border-box;
-                padding: 10px;
-                display: inline-block;
-                vertical-align: top;
-                background-color: #e7e9eb;
-                min-height: max-content !important;
-                height: 100%;
-              "
-            >
-              <div style="width: 100%; height: auto; text-align: left">
-                <img
-                  src="https://ik.imagekit.io/ktwmp1k4t/Email%20templates/Mac%20Studio/card-3.png?updatedAt=1757960469068"
-                  alt="icon"
-                  style="width: 32px; height: auto"
-                />
-              </div>
-              <h5 style="color: rgb(36, 36, 36); margin: 0 0 10px 0">Shop one on one with a Mac Specialist.</h5>
-              <p style="margin: 0; font-size: 12px">Our Specialists can help you choose, configure, and buy the perfect Mac.</p>
-            </div>
+            <table>
+              <tr>
+                <td style="height: 250px">
+                  <div
+                    class="card"
+                    style="
+                      width: 30%;
+                      text-align: left;
+                      margin: auto;
+                      box-sizing: border-box;
+                      padding: 10px;
+                      display: inline-block;
+                      vertical-align: top;
+                      background-color: #e7e9eb;
+                      min-height: max-content !important;
+                      height: 100%;
+                    "
+                  >
+                    <div class="card-img" style="width: 100%; height: auto; text-align: left">
+                      <img
+                        src="https://ik.imagekit.io/ktwmp1k4t/Email%20templates/Mac%20Studio/card-1.png?updatedAt=1757960469024"
+                        alt="icon"
+                        style="width: 32px; height: auto"
+                      />
+                    </div>
+                    <h5 style="color: rgb(36, 36, 36); margin: 0 0 10px 0">Why Apple is the best place to buy your new Mac.</h5>
+                    <p style="margin: 0; font-size: 12px">
+                      With Apple Trade In, just give us your eligible Mac and get credit for a new one. It’s good for you and the planet.<sup>4</sup>
+                    </p>
+                  </div>
+                  <div
+                    class="card"
+                    style="
+                      width: 30%;
+                      text-align: left;
+                      margin: auto;
+                      box-sizing: border-box;
+                      padding: 10px;
+                      display: inline-block;
+                      vertical-align: top;
+                      background-color: #e7e9eb;
+                      min-height: max-content !important;
+                      height: 100%;
+                    "
+                  >
+                    <div class="card-img" style="width: 100%; height: auto; text-align: left">
+                      <img
+                        src="https://ik.imagekit.io/ktwmp1k4t/Email%20templates/Mac%20Studio/card-2.png?updatedAt=1757960469033"
+                        alt="icon"
+                        style="width: 32px; height: auto"
+                      />
+                    </div>
+                    <h5 style="color: rgb(36, 36, 36); margin: 0 0 10px 0">Apple Card Monthly Installments.</h5>
+                    <p style="margin: 0; font-size: 12px">
+                      With Apple Trade In, just give us your eligible Mac and get credit for a new one. It’s good for you and the planet.<sup>4</sup>
+                    </p>
+                  </div>
+                  <div
+                    class="card"
+                    style="
+                      width: 30%;
+                      text-align: left;
+                      margin: auto;
+                      box-sizing: border-box;
+                      padding: 10px;
+                      display: inline-block;
+                      vertical-align: top;
+                      background-color: #e7e9eb;
+                      min-height: max-content !important;
+                      height: 100%;
+                    "
+                  >
+                    <div class="card-img" style="width: 100%; height: auto; text-align: left">
+                      <img
+                        src="https://ik.imagekit.io/ktwmp1k4t/Email%20templates/Mac%20Studio/card-3.png?updatedAt=1757960469068"
+                        alt="icon"
+                        style="width: 32px; height: auto"
+                      />
+                    </div>
+                    <h5 style="color: rgb(36, 36, 36); margin: 0 0 10px 0">Shop one on one with a Mac Specialist.</h5>
+                    <p style="margin: 0; font-size: 12px">Our Specialists can help you choose, configure, and buy the perfect Mac.</p>
+                  </div>
+                </td>
+              </tr>
+            </table>
           </td>
         </tr>
         <!--  -->
